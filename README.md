@@ -62,13 +62,8 @@ Plotly >=6.2.0
 
 NumPy
 
-Install all dependencies with:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-🔮 Planned Integrations
+# 🔮 Planned Integrations
 IBM Watson ML / Granite: Real AI model for disease prediction and chat responses
 
 PostgreSQL Database: Persistent storage for user and health data
@@ -81,9 +76,7 @@ Port: 5000
 
 Command:
 
-bash
-Copy
-Edit
+
 streamlit run app.py --server.port 5000
 Address: 0.0.0.0
 
@@ -92,25 +85,23 @@ Headless Mode: Enabled
 Theme: Custom healthcare-friendly design
 
 Environment Variables
-bash
-Copy
-Edit
+
 WATSONX_API_KEY=your_ibm_watson_api_key
 WATSONX_PROJECT_ID=your_ibm_project_id
 # 🛡️ Key Features
-✅ Medical Disclaimer System
+# ✅ Medical Disclaimer System
 Prominent notices across the app
 
 Clear messaging that results are for informational purposes only
 
-✅ Mock Data Generation
+# ✅ Mock Data Generation
 Realistic health indicators (heart rate, blood pressure, etc.)
 
 Time-series and symptom tracking
 
 Data used for health analytics and insights
 
-✅ Modular Design
+# ✅ Modular Design
 Each component is independently maintained
 
 Reusable utility functions
