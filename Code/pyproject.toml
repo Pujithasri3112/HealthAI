@@ -1,0 +1,12 @@
+[project]
+name = "healthai"
+version = "0.1.0"
+description = "Intelligent Healthcare Assistant using IBM Watson ML"
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "plotly",
+    "python-dotenv"
+]
