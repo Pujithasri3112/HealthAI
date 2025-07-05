@@ -39,7 +39,7 @@ Data Simulation: Realistic health metrics generated with pandas and numpy
 
 # 🧩 Key Components
 Module	Description
-components/patient_chat.py	Chat interface for answering medical queries using mock AI
+components/patient_chat.py	       Chat interface for answering medical queries using mock AI
 components/disease_prediction.py	Input symptoms and receive predicted conditions
 components/treatment_plans.py	Get personalized treatment suggestions based on symptoms and conditions
 components/health_analytics.py	Interactive dashboards for visualizing health metrics
